@@ -31,7 +31,7 @@ int main() {
     cout << user2.name << " " << user1.name << endl;
     return 0;
 }
-
+//Error in assignment code:-
 //the error was that both the pointers were pointing to same memory location.
 
  
