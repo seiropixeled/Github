@@ -64,7 +64,7 @@ public:
         }
     }
     // function to check if any player has won the game or it is a draw.
-    bool checkWinner()
+    bool checkWinner()    
     {
         for (int i = 0; i < 3; i++)
         {
