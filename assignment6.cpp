@@ -31,8 +31,13 @@ public:
 int main() {
     sample obj;
 
+    // Compute factorial of 5 using the Compute method with findFactorial function
     cout << "Factorial: " << obj.Compute(&sample::findFactorial, 5) << endl;
+    
+    // Compute square of 4 using the Compute method with findSquare function
     cout << "Square: " << obj.Compute(&sample::findSquare, 4) << endl;
+    
+    // Compute cube of 3 using the Compute method with findCube function
     cout << "Cube: " << obj.Compute(&sample::findCube, 3) << endl;
 
     return 0;
